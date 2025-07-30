@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TC's project page</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #000080;
+      color: #fff;
+      padding: 8px 20px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 2px solid #000080;
+      margin: 15px;
+      padding: 10px;
+      width: 200px;
+      height: 180px;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px 0;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 12px;
+      color: #555;
+      text-align: center;
+    }
+
+    .card:hover {
+      box-shadow: 5px 5px 10px #000000;
+    }
+    
+    footer {
+      background-color: #000080;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    This is where I put my projects I have made or am currently working on
+  </header>
+
+  <div class="container">
+    <a href="https://threat-conductor.github.io/Everything-Calculator/" class="card" target="_blank">
+      <h2>Everything Calculator</h2>
+      <h3 style="color: blue;">Work in progress</h3>
+      <p>This is a calculator that can convert units, do geometry calculations, probabilities and more</p>
+    </a>
+    <a href="https://threat-conductor.github.io/faster-babel-image-archives/" class="card" target="_blank">
+      <h2>Faster babel image archives</h2>
+      <h3 style="color: green;">Finished</h3>
+      <p>This is a random image generator like the babel image archives but with varibale resolution and speed</p>
+    </a>
+    <a href="https://github.com/Threat-Conductor/ti84-ce-math-programs" class="card" target="_blank">
+      <h3>TI Basic math programs</h3>
+      <h3 style="color: Red;">Abandoned</h3>
+      <p>Assorted TI Basic math programs i made for school to help speed things up a little</p>
+    </a>
+  </div>
+
+  <footer>
+    Threat_Conductor
+    <br>
+    <a href="https://github.com/Threat-Conductor" target="_blank">My github</a>
+  </footer>
+</body>
+</html>
